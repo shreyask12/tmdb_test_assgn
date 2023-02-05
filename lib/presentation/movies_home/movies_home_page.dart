@@ -47,12 +47,12 @@ class _MoviesHomePageState extends State<MoviesHomePage> {
                   ),
                   MoviesSection(
                     bloc: bloc,
-                    title: 'Trending',
+                    title: 'Popular',
                     movies: state.popularMovies ?? [],
                   ),
                   MoviesSection(
                     bloc: bloc,
-                    title: 'Popular',
+                    title: 'Top Rated',
                     movies: state.topRatedMovies ?? [],
                   ),
                   MoviesSection(

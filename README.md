@@ -1,16 +1,32 @@
 # tmdb_movie_assigment
 
-A new Flutter project.
+Flutter TMDB TEST Project
 
-## Getting Started
+Getting Started
+To run the project:
 
-This project is a starting point for a Flutter application.
+Get TMDB key from official [I'm an inline-style link with title](https://developers.themoviedb.org/3/getting-started/introduction "here")
+Open the project in your IDE.
+Create a I'm an inline-style link with title](https://pub.dev/packages/flutter_dotenv ".evn") file at the project root and add TMDB_KEY= <<your key here>>.
+Run this command flutter pub get in the terminal.
+Requirements
+This app has 2 screen i.e Home Screen and movie details screen:
 
-A few resources to get you started if this is your first Flutter project:
+Home screen have the following:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Trending Movies Section with horizontal listview with title and release date
+Popular Movies Section with horizontal listview with title and release date
+UpComing Movies Section with horizontal listview with title and release date
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Movie Details screen has the following:
+
+Poster and backdrop image of the movie 
+Score
+Open trailer in Youtube
+Release date, run-time, certifications, etc.
+Overview
+Cast actress 
+Recommendations 
+
+
+
