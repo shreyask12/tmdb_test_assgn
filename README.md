@@ -2,32 +2,35 @@
 
 Flutter TMDB TEST Project
 
-Getting Started
+## Getting Started
+
 To run the project:
 
-Get TMDB key from official [https://developers.themoviedb.org/3/getting-started/introduction "here"]
-Open the project in your IDE.
-Create a [https://pub.dev/packages/flutter_dotenv ".evn"] file at the project root and add TMDB_KEY= <<your key here>>.
-Run this command flutter pub get in the terminal.
-Requirements
+- Get TMDB key from [here](https://developers.themoviedb.org/3/getting-started/introduction)
+- Open the project in your IDE.
+- Create a [.evn ](https://pub.dev/packages/flutter_dotenv) file at the project root and add `TMDB_KEY= <<your key>>`. 
+- Run this command `flutter pub get` in the terminal.
 
-⋅⋅*This app has 2 screen i.e Home Screen and movie details screen:
 
-Home screen have the following:
+## Requirements
 
-⋅⋅*Trending Movies Section with horizontal listview with title and release date
-⋅⋅*Popular Movies Section with horizontal listview with title and release date
-⋅⋅*UpComing Movies Section with horizontal listview with title and release date
+- This app has 2 screen i.e Home Screen and movie details screen:
 
-Movie Details screen has the following:
+- Home screen have the following:
 
-⋅⋅*Poster and backdrop image of the movie 
-⋅⋅*Score
-⋅⋅*Open trailer in Youtube
-⋅⋅*Release date, run-time, certifications, etc.
-Overview
-⋅⋅*Cast actress 
-⋅⋅*Recommendations 
+- Trending Movies Section with horizontal listview with title and release date
+- Popular Movies Section with horizontal listview with title and release date
+- UpComing Movies Section with horizontal listview with title and release date
+
+- Movie Details screen has the following:
+
+- Poster and backdrop image of the movie 
+- Score
+- Open trailer in Youtube
+- Release date, run-time, certifications, etc.
+- Overview
+- Cast actress 
+- Recommendations 
 
 
 
